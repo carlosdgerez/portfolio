@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styles for Presentation Container */
+.presentation-container {
+  justify-content: center;
+  background-color: #0f172a;
+  padding: 40px;
+  color: white;
+}
+
+/* Intro Heading Styling */
+.intro h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ff8591;
+  font-family: 'Bitter', sans-serif;
+  text-align: center;
+}
+
+/* Intro Paragraph Styling */
+.intro p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Working Text Styling (Highlighting) */
+.working {
+  font-weight: bold;
+  color: #07FFFF;
+}
+
+/* Mobile Responsiveness for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .presentation-container {
+    padding: 20px;
+  }
+
+  .intro h2 {
+    font-size: 2.5rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+}

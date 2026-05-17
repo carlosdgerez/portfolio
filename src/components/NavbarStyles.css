@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styles for Navigation Bar */
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%; /* Ensures the navbar takes up most of the width of the page */
+  align-items: center;
+  justify-content: space-between;
+  background: #0f172ac4;
+  padding: 0% 7%;
+  font-family: 'Bitter', sans-serif;
+  z-index: 1000;
+}
+
+/* Navbar Container Styling */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo Styling */
+nav img {
+  height: 160px;
+  width: auto;
+  object-fit: contain;
+  perspective: 1000px;
+}
+
+.rotating-icon {
+    
+    transition:
+        transform 8s ease,
+        filter 0.6s ease;
+
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+/* Hover effect */
+.rotating-icon:hover {
+    transform: rotateY(360deg) scale(1.08);
+
+    filter:
+        drop-shadow(0 0 6px orange)
+        drop-shadow(0 0 12px orange)
+        drop-shadow(0 0 20px rgba(255,165,0,0.4));
+}
+
+/* Navbar List Styling */
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+/* Navbar Link Styling */
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+  font-family: 'Bitter', serif;
+}
+
+/* Navbar Link Hover and Active State Underline Effect */
+#navbar li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff8591;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Navbar Link Hover/Active State */
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  width: 100%;
+}
+
+/* Navbar Link Color Change on Hover/Active */
+#navbar li a:hover,
+#navbar li a.active {
+  color: #ff8591;
+}
+
+/* Active Link Styling (Bold and Underlined) */
+#navbar li a.active {
+  color: #ff8591;
+}
+
+/* Resume link with hover effect */
+.resume a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: transparent; /* Fondo transparente */
+  color: white; /* Color del texto */
+  border: 2px solid white; /* Borde blanco */
+  border-radius: 15px; /* Esquinas redondeadas */
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; /* Transición suave */
+  font-weight: bold;
+}
+
+.resume a:hover {
+  /* background-color: #ff8591; */
+  border-color: #ff8591;
+  color: white; /* Asegúrate de que el color del texto sea blanco */
+}
+
+
+
+.resume a i {
+  margin-left: 10px; /* Espacio entre el texto y el ícono */
+}
+
+/* Mobile Menu Icon Styling */
+#mobile {
+  display: none;
+}
+
+#mobile i {
+  color: #fff;
+}
+
+/* Styles for Small Screens (Less than 760px) */
+@media screen and (max-width: 760px) {
+  /* Navbar Styling for Mobile View */
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 90px;
+    right: -300px; /* Starts off-screen */
+    width: 300px;
+    height: 100vh;
+    background: #2a3339;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 40px 0 0 10px;
+    transition: right 0.3s ease; /* Smooth transition for opening */
+  }
+
+  /* Active Mobile Navbar State (Visible on Screen) */
+  #navbar.active {
+    right: 0; /* Moves navbar to visible position */
+  }
+
+  /* Spacing Between List Items in Mobile Navbar */
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  /* Mobile Menu Icon Display */
+  #mobile {
+    display: block;
+  }
+
+  /* Mobile Menu Icon Size and Cursor Style */
+  #mobile i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+}

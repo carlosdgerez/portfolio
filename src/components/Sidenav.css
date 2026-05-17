@@ -1,0 +1,47 @@
+/* Style for the sidenav on large screens */
+#sidenav {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+#sidenav a {
+  color: #fff;
+  font-size: 24px;
+  margin: 20px 0;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#sidenav a.active {
+  color: #000;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  #sidenav {
+      position: fixed;
+      bottom: 0;
+      top: 95%;
+      left: 0;
+      right: 0;
+      transform: translateY(0);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgba(0, 0, 0, 0);
+      padding: 10px 0;
+  }
+
+  #sidenav a {
+      color: #fff;
+      font-size: 24px;
+      margin: 0 15px;
+  }
+}
