@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "nodemon": "^3.1.7"
   },
   "scripts": {
@@ -41,7 +41,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": ".",
+  "homepage": "https://carlosdgerez.github.io/portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
