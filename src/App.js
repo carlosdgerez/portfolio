@@ -9,9 +9,8 @@ import SimpleTagCloud from './components/SimpleTagCloud'; // Asegúrate de impor
 
 function App() {
   const tags = [
-    "React", "JavaScript", "CSS", "HTML", "Emilia te quiero",
-    "API", "TypeScript", "SQL", "Python", "MongoDb", "Power Apps", 
-    "Angular"
+    "Ansible", "Docker", "Kubernetes", "AWS",
+    "API", "TypeScript", "SQL", "Python", "Tensorflow" , "Pandas", "Numpy", "Git", 
   ];
 
   return (

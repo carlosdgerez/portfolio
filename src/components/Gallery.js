@@ -5,7 +5,7 @@ import Web from "../images/website.jpg";
 import Programming from "../images/matrix.jpg";
 import Infrastructure from "../images/machine.jpg";
 import Docker from "../images/dockerq2a.png";
-import Weather from "../images/bot.png";
+
 import Bot from "../images/bot.png";
 import Mastodon from "../images/mastodonDocker.png";
 import Systems from "../images/desk.jpg";
@@ -17,21 +17,22 @@ const ProjectsGallery = () => {
       <h1>My Projects</h1>
       <div className="projects-container">
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/carlosdgerez.github.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/carlosdgerez/mynetworklab1" target="_blank" rel="noopener noreferrer">
           <LazyLoadImage src={Infrastructure} alt="Infrastructure Proyect" width={'100%'} effect="blur"/>
           </a>
           <h3>Infrastructure with Vagrant</h3>
           <p>
-            Infrastructure was developed for the Fall 2024 Hackathon to help BYU-I students rate and review their classes. Using <span className="tech-color">JavaScript</span>, <span className="tech-color">EJS</span>, <span className="tech-color">CSS</span>, and <span className="tech-color">HTML</span>, this platform allows students to share feedback and help others make informed decisions about their courses.
+            Infrastructure-as-Code environment built with <span className="tech-color">Vagrant</span>, <span className="tech-color">VirtualBox</span>, and <span className="tech-color">Puppet</span> to automate the deployment of a multi-VM network architecture. The project includes a Puppet master, load balancer, web servers, and database server with secure segmented networking, automated provisioning, and scalable configuration management for development and infrastructure learning.
           </p>
         </div>
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/carlosdgerez.github.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/carlosdgerez/tutorialsSystems" target="_blank" rel="noopener noreferrer">
           <LazyLoadImage src={Systems} alt="Systems Proyect" width={'100%'} effect="blur"/>
           </a>
           <h3>System Administration Basics</h3>
           <p>
-            Systems is built with <span className="tech-color">Svelte</span>, <span className="tech-color">JavaScript</span>, <span className="tech-color">CSS</span>, <span className="tech-color">HTML</span>, and the <span className="tech-color">Unsplash API</span>. Powered by <span className="tech-color">Vite</span>, it allows users to search, save, and download their favorite images directly from Unsplash using a keyword-based search bar.
+            This are a serie of tutorials designed for a virtual network created with vms and firewalls to practice installation, configuration and management of diferent resources.It has 2 firewalls and 3 diferent zones protected by them. <span className="tech-color">DMZ</span> has 5 vms with <span className="tech-color">web services</span>, <span className="tech-color">proxy</span> and <span className="tech-color">load balancer</span>.<span className="tech-color">Inside zone</span> has <span className="tech-color">Active directory</span>, <span className="tech-color">dhcp</span> and <span className="tech-color">DNS</span> servers.<span className="tech-color"> Secure zone</span> holds the most secure area with databases.
+
           </p>
         </div>
         <div className="project-card">
@@ -40,11 +41,11 @@ const ProjectsGallery = () => {
           </a>
           <h3>Machine Learning</h3>
           <p>
-            This project is a digital catalog created for BYU-I’s Arts and Online Learning departments, utilizing <span className="tech-color">Angular</span>, <span className="tech-color">TypeScript</span>, <span className="tech-color">Bootstrap</span>, and <span className="tech-color">Firebase</span>. It allows users to manage and explore multimedia content in a digital store-like interface.
+            This project is under construction I plan to create a  <span className="tech-color">Yolo</span>project using <span className="tech-color">Roboflow</span>, <span className="tech-color">OpenCV</span>, and <span className="tech-color">Python</span>.
           </p>
         </div>
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/carlosdgerez.github.io" target="_blank" rel="noopener noreferrer">
+          <a href=" https://carlosdgerez.github.io/weatherSite/" target="_blank" rel="noopener noreferrer">
             <LazyLoadImage src={Web} alt="Web Proyect" width={'100%'} effect="blur"/>
           </a>
           <h3>Weather App Basic HTML</h3>
@@ -53,7 +54,7 @@ const ProjectsGallery = () => {
           </p>
         </div>
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/carlosdgerez.github.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://carlosdgerez.github.io/Rproject/" target="_blank" rel="noopener noreferrer">
           
             <LazyLoadImage src={Programming} alt="Programming Proyect" width={'100%'} effect="blur"/>
           </a>
@@ -64,12 +65,12 @@ const ProjectsGallery = () => {
           </p>
         </div>
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/carlosdgerez.github.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/carlosdgerez/Docker/" target="_blank" rel="noopener noreferrer">
             <LazyLoadImage src={Docker} alt="Docker Proyect" width={'100%'} effect="blur"/>
           </a>
           <h3>Docker</h3>
           <p>
-            Built using <span className="tech-color">JavaScript</span>, <span className="tech-color">EJS</span>, and <span className="tech-color">CSS</span>, <span className="tech-color">CSE Motors</span> simulates a vehicle sales platform, allowing users to explore car models, prices, and make mock purchases.
+            Built using <span className="tech-color">JavaScript</span>, <span className="tech-color">EJS</span>, and <span className="tech-color">CSS</span>, <span className="tech-color">CSE Motors</span> simulates a vehicle sales platform, allowing users to explore car models, prices, and make mock purchases.Production-style <span className="tech-color">Question2Answer (Q2A)</span> deployment built with <span className="tech-color">Docker Compose</span> using a secure 3-zone architecture. The project implements <span className="tech-color">Nginx</span> round-robin <span className="tech-color">load balancing</span>, horizontally  <span className="tech-color">scaled Q2A replicas</span>, <span className="tech-color">Redis-based shared sessions</span>, and isolated database networking to simulate scalable and secure <span className="tech-color">real-world application infrastructure</span>.
           </p>
         </div>
         <div className="project-card">
@@ -78,7 +79,7 @@ const ProjectsGallery = () => {
           </a>
           <h3>Programming Python code</h3>
           <p>
-            <span className="tech-color">Weather App</span> leverages <span className="tech-color">Java</span>, <span className="tech-color">AWT</span>, and <span className="tech-color">API calls</span> to provide real-time weather data and forecasts through a graphical user interface (GUI), offering a functional and user-friendly experience.
+            <span className="tech-color">Not yet ready</span> This is under construction.
           </p>
         </div>
         <div className="project-card">
@@ -87,16 +88,16 @@ const ProjectsGallery = () => {
           </a>
           <h3>N8N Bot Development</h3>
           <p>
-            Created using <span className="tech-color">JavaScript</span>, <span className="tech-color">HTML</span>, and the <span className="tech-color">Overpass API</span>, this project displays a map of historical sites and parks in Mexico City, integrating geospatial data for an interactive experience.
+            Will be created using <span className="tech-color">n8n</span>, <span className="tech-color">Not yet ready</span> This is under construction.
           </p>
         </div>
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/carlosdgerez.github.io" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/carlosdgerez/mastodon/blob/main/README-Local-dev-guide.md" target="_blank" rel="noopener noreferrer">
           <LazyLoadImage src={Mastodon} alt="Mastodon local with Docker" width={'100%'} effect="blur"/>
           </a>
           <h3>Mastodon local with Docker</h3>
           <p>
-            Created using <span className="tech-color">JavaScript</span>, <span className="tech-color">HTML</span>, and the <span className="tech-color">Overpass API</span>, this project displays a map of historical sites and parks in Mexico City, integrating geospatial data for an interactive experience.
+            Custom local Mastodon development environment built with <span className="tech-color">Docker</span>, <span className="tech-color">Caddy</span>, and <span className="tech-color">mkcert</span> to enable secure <span className="tech-color">HTTPS</span> testing and streamlined deployment. The project includes <span className="tech-color">automated container orchestration</span>, <span className="tech-color">local SSL certificate management</span>, <span className="tech-color">Rails database setup</span>, and <span className="tech-color">troubleshooting documentation</span> for debugging common configuration and networking issues.
           </p>
         </div>
         
