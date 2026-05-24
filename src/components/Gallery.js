@@ -29,7 +29,7 @@ const ProjectsGallery = () => {
           <a href="https://github.com/carlosdgerez/tutorialsSystems" target="_blank" rel="noopener noreferrer">
           <LazyLoadImage src={Systems} alt="Systems Proyect" width={'100%'} effect="blur"/>
           </a>
-          <h3>System Administration Basics</h3>
+          <h3>Virtual Infrastructure Security Training</h3>
           <p>
             This are a serie of tutorials designed for a virtual network created with vms and firewalls to practice installation, configuration and management of diferent resources.It has 2 firewalls and 3 diferent zones protected by them. <span className="tech-color">DMZ</span> has 5 vms with <span className="tech-color">web services</span>, <span className="tech-color">proxy</span> and <span className="tech-color">load balancer</span>.<span className="tech-color">Inside zone</span> has <span className="tech-color">Active directory</span>, <span className="tech-color">dhcp</span> and <span className="tech-color">DNS</span> servers.<span className="tech-color"> Secure zone</span> holds the most secure area with databases.
 
