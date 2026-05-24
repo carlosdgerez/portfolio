@@ -41,7 +41,7 @@ const ProjectsGallery = () => {
           </a>
           <h3>Machine Learning</h3>
           <p>
-            This project is under construction I plan to create a  <span className="tech-color">Yolo</span>project using <span className="tech-color">Roboflow</span>, <span className="tech-color">OpenCV</span>, and <span className="tech-color">Python</span>.
+            This project is under construction I want to create a  <span className="tech-color">Yolo</span>project using <span className="tech-color">Roboflow</span>, <span className="tech-color">OpenCV</span>, and <span className="tech-color">Python</span>.
           </p>
         </div>
         <div className="project-card">
