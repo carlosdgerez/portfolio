@@ -68,7 +68,7 @@ const ProjectsGallery = () => {
 
   <div className="project-links">
     <a
-      href="https://carlosdgerez.github.io/Rproject/investment-analysis"
+      href="https://carlosdgerez.github.io/dygraphs/"
       target="_blank"
       rel="noopener noreferrer"
       className="tech-color"
@@ -77,7 +77,7 @@ const ProjectsGallery = () => {
     </a>
     {" | "}
     <a
-      href="https://carlosdgerez.github.io/Rproject/stock-prognosis"
+      href="https://carlosdgerez.github.io/stocksAnalisis/"
       target="_blank"
       rel="noopener noreferrer"
       className="tech-color"
@@ -86,7 +86,7 @@ const ProjectsGallery = () => {
     </a>
     {" | "}
     <a
-      href="https://carlosdgerez.github.io/Rproject/geodata-analysis"
+      href="https://carlosdgerez.github.io/Rproject/"
       target="_blank"
       rel="noopener noreferrer"
       className="tech-color"
