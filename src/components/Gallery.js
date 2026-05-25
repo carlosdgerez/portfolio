@@ -17,7 +17,7 @@ const ProjectsGallery = () => {
       <h1>My Projects</h1>
       <div className="projects-container">
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/mynetworklab1" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/carlosdgerez/mynetworklab1#vagrant-virtualbox-setup-for-multiple-vms" target="_blank" rel="noopener noreferrer">
           <LazyLoadImage src={Infrastructure} alt="Infrastructure Proyect" width={'100%'} effect="blur"/>
           </a>
           <h3>Infrastructure with Vagrant</h3>
@@ -58,11 +58,43 @@ const ProjectsGallery = () => {
           
             <LazyLoadImage src={Programming} alt="Programming Proyect" width={'100%'} effect="blur"/>
           </a>
-          <h3>Programming R code</h3>
-          <p>
-            <span className="tech-color">Programming</span>  <span className="tech-color">JavaScript</span>, <span className="tech-color">CSS</span>, <span className="tech-color">HTML</span>  I have learn several programming languages along my learning path. Here are some of them, and some code examples.Here are some examples of R projects with interesting visuals: Investment Stocks  Geodata 
-.
-          </p>
+          <h3>R Data Analytics Projects</h3>
+
+  <p>
+    Collection of <span className="tech-color">R</span> projects focused on
+    financial analytics, stock market forecasting, and geospatial data
+    visualization using statistical models and interactive analysis tools.
+  </p>
+
+  <div className="project-links">
+    <a
+      href="https://carlosdgerez.github.io/Rproject/investment-analysis"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="tech-color"
+    >
+      Investment Analysis
+    </a>
+    {" | "}
+    <a
+      href="https://carlosdgerez.github.io/Rproject/stock-prognosis"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="tech-color"
+    >
+      Stock Forecasting
+    </a>
+    {" | "}
+    <a
+      href="https://carlosdgerez.github.io/Rproject/geodata-analysis"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="tech-color"
+    >
+      Geodata Analysis
+    </a>
+  </div>
+
         </div>
         <div className="project-card">
           <a href="https://github.com/carlosdgerez/Docker/" target="_blank" rel="noopener noreferrer">
@@ -70,7 +102,7 @@ const ProjectsGallery = () => {
           </a>
           <h3>Docker</h3>
           <p>
-            Built using <span className="tech-color">JavaScript</span>, <span className="tech-color">EJS</span>, and <span className="tech-color">CSS</span>, <span className="tech-color">CSE Motors</span> simulates a vehicle sales platform, allowing users to explore car models, prices, and make mock purchases.Production-style <span className="tech-color">Question2Answer (Q2A)</span> deployment built with <span className="tech-color">Docker Compose</span> using a secure 3-zone architecture. The project implements <span className="tech-color">Nginx</span> round-robin <span className="tech-color">load balancing</span>, horizontally  <span className="tech-color">scaled Q2A replicas</span>, <span className="tech-color">Redis-based shared sessions</span>, and isolated database networking to simulate scalable and secure <span className="tech-color">real-world application infrastructure</span>.
+           <span className="tech-color">Question2Answer (Q2A)</span> deployment built with <span className="tech-color">Docker Compose</span> using a secure 3-zone architecture. The project implements <span className="tech-color">Nginx</span> round-robin <span className="tech-color">load balancing</span>, horizontally  <span className="tech-color">scaled Q2A replicas</span>, <span className="tech-color">Redis-based shared sessions</span>, and isolated database networking to simulate scalable and secure <span className="tech-color">real-world application infrastructure</span>.
           </p>
         </div>
         <div className="project-card">
