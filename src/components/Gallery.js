@@ -97,7 +97,7 @@ const ProjectsGallery = () => {
 
         </div>
         <div className="project-card">
-          <a href="https://github.com/carlosdgerez/Docker/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/carlosdgerez/Docker/#architecture" target="_blank" rel="noopener noreferrer">
             <LazyLoadImage src={Docker} alt="Docker Proyect" width={'100%'} effect="blur"/>
           </a>
           <h3>Docker</h3>
