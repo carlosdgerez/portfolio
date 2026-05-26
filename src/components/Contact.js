@@ -7,20 +7,22 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
     emailjs
       .sendForm(
-        "service_",
-        "template_",
+        "service_eq4g7f8",
+        "template_7tkjwb1",
         form.current,
-        "-PS" 
+        "7qIg75-rnm5DkE5n1"
       )
       .then(
         (result) => {
           alert("Message sent successfully!");
         },
         (error) => {
+          
           alert("Failed to send message. Please try again.");
+          form.current.reset();
         }
       );
       
