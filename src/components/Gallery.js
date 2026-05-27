@@ -109,14 +109,13 @@ const ProjectsGallery = () => {
           </a>
           <h3>Weather App Basic HTML</h3>
           <p>
-            Developed for the Systems and Innovation Technology department at
-            BYU-I, <span className="tech-color">SIT Store</span> is a simulated
-            e-commerce platform using{" "}
-            <span className="tech-color">Angular</span>,{" "}
-            <span className="tech-color">TypeScript</span>,{" "}
-            <span className="tech-color">Bootstrap</span>, and{" "}
-            <span className="tech-color">Firebase</span> to manage products,
-            user authentication, and transactions.
+            Developed for testing and learning the use of <span className="tech-color">APIs</span>, this weather
+            application utilizes the <span className="tech-color">OpenWeatherMap API</span> to fetch and display current
+            weather data based on user input. Built with basic <span className="tech-color">HTML</span>, <span className="tech-color">CSS</span>, and
+            <span className="tech-color"> JavaScript</span>, the app allows users to search for weather information by
+            city name, providing real-time updates on temperature, humidity,
+            wind speed, and weather conditions in a simple and user-friendly
+            interface.
           </p>
         </div>
         <div className="project-card">

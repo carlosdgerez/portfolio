@@ -7,20 +7,20 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
+    console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID);
     emailjs
       .sendForm(
-        "service_eq4g7f8",
-        "template_7tkjwb1",
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_TEMPLATE_ID,
         form.current,
-        "7qIg75-rnm5DkE5n1"
+        process.env.REACT_APP_EMAIL_KEY
       )
       .then(
         (result) => {
           alert("Message sent successfully!");
         },
         (error) => {
-          
+            console.log(error);
           alert("Failed to send message. Please try again.");
           form.current.reset();
         }
