@@ -97,7 +97,7 @@ class Navbar extends Component {
                             <li className="resume">
                             <a 
                                 href="https://carlosdgerez.github.io/Gerez-Resume" 
-                                download="Resume">
+                                >
                                 My Resume
                                 <i className="fas fa-download"></i>
                             </a>
