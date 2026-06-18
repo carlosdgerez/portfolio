@@ -5,7 +5,7 @@ import Web from "../images/website.jpg";
 import Programming from "../images/matrix.jpg";
 import Infrastructure from "../images/machine.jpg";
 import Docker from "../images/dockerq2a.png";
-import Kubernetes from "../images/kubernetes.png";
+import Kubernetes from "../images/Kubernetes.png";
 import Bot from "../images/bot.png";
 import Mastodon from "../images/mastodonDocker.png";
 import Systems from "../images/desk.jpg";
