@@ -5,7 +5,7 @@ import Web from "../images/website.jpg";
 import Programming from "../images/matrix.jpg";
 import Infrastructure from "../images/machine.jpg";
 import Docker from "../images/dockerq2a.png";
-
+import Kubernetes from "../images/kubernetes.png";
 import Bot from "../images/bot.png";
 import Mastodon from "../images/mastodonDocker.png";
 import Systems from "../images/desk.jpg";
@@ -219,18 +219,18 @@ const ProjectsGallery = () => {
         </div>
         <div className="project-card">
           <a
-            href="https://github.com/carlosdgerez/carlosdgerez.github.io"
+            href="https://github.com/carlosdgerez/k3s-kubernetes#components"
             target="_blank"
             rel="noopener noreferrer"
           >
             <LazyLoadImage
-              src={Bot}
-              alt="N8N Bot Development"
+              src={Kubernetes}
+              alt="Kubernetes three tier architecture"
               width={"100%"}
               effect="blur"
             />
           </a>
-          <h3>N8N Bot Development</h3>
+          <h3>Kubernetes three tier architecture</h3>
           <p>
             Will be created using <span className="tech-color">n8n</span>,{" "}
             <span className="tech-color">Not yet ready</span> This is under
