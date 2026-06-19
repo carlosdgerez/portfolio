@@ -232,10 +232,16 @@ const ProjectsGallery = () => {
           </a>
           <h3>Kubernetes three tier architecture</h3>
           <p>
-            Will be created using <span className="tech-color">n8n</span>,{" "}
-            <span className="tech-color">Not yet ready</span> This is under
-            construction.
-          </p>
+            Built a cloud-native three-tier application on a multi-node
+           <span className="tech-color"> K3s Kubernetes </span>
+            cluster using
+          <span className="tech-color"> Docker</span>,
+          <span className="tech-color"> Redis</span>,
+          <span className="tech-color"> MySQL</span>, and
+          <span className="tech-color"> Vagrant</span>. Implemented
+            distributed session management, persistent storage, and
+            automated infrastructure provisioning.
+</p>
         </div>
         <div className="project-card">
           <a
